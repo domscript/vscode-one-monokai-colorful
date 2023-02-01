@@ -1,0 +1,35 @@
+{
+  "number": 42,
+  "boolean": true,
+  "colors": {
+    "textColor": "Some simple textColor. For demonstration!",
+    "nameColor": {
+      "textColor": "Some simple textColor. For demonstration!",
+      "nameColor": {
+        "textColor": "Some simple textColor. For demonstration!",
+        "nameColor": {
+          "textColor": "Some simple textColor. For demonstration!",
+          "nameColor": {
+            "textColor": "Some simple textColor. For demonstration!",
+            "nameColor": {
+              "textColor": "Some simple textColor. For demonstration!",
+              "nameColor": {
+                "textColor": "Some simple textColor. For demonstration!",
+                "nameColor": {
+                  "textColor": "Some simple textColor. For demonstration!",
+                  "nameColor": {
+                    "textColor": "Some simple textColor. For demonstration!",
+                    "nameColor": {
+                      "textColor": "Some simple textColor. For demonstration!",
+                      "nameColor": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
