@@ -15,4 +15,4 @@
 
 One Monokai Colorful is a color scheme, customized user interface theme for Visual Studio Code. It has been designed primary for TypeScript, JavaScript, React(JSX, TSX). Carefully selected shades of colors are the foundation of an uncompromising, user interface. The goal of One Monokai Colorful is to let NEWCOMERS clearly see **things** in the code.
 
-![One Monokai Colorful](images/main-image.png)
+![One Monokai Colorful](https://github.com/domscript/vscode-one-monokai-colorful/blob/main/images/main-image.png)
