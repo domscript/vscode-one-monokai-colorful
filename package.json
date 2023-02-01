@@ -1,0 +1,41 @@
+{
+  "name": "one-monokai",
+  "displayName": "One Monokai Colorful",
+  "description": "A colorful cross between Monokai and One Dark",
+  "publisher": "domscript",
+  "version": "0.0.1",
+  "private": "true",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Night Theme",
+    "Vscode",
+    "Onedark",
+    "Monokai"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Monokai Colorful",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Domscript-color-theme.json"
+      },
+      {
+        "label": "One Monokai Colorful (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Domscript-color-theme--noitalic.json"
+      }
+    ]
+  }
+}
