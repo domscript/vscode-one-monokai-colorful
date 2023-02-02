@@ -62,7 +62,7 @@ These are my recommendations for these settings but you can use whatever colors 
 
 ## If you want this badges
 
-![Badges - Sunset over Forest](ttps://github.com/domscript/vscode-one-monokai-colorful/blob/main/images/badges.png)
+![Badges - Sunset over Forest](https://github.com/domscript/vscode-one-monokai-colorful/blob/main/images/badges.png)
 
 You need to take a risk once in a while.
 
@@ -102,4 +102,4 @@ You need to take a risk once in a while.
 
 ![One Monokai Colorful](https://github.com/domscript/vscode-one-monokai-colorful/blob/main/images/main-image-gradient.png)
 
-You can find some ideas in `css/customCss.css` file.
+You can find some ideas in [css/customCss.css](https://github.com/domscript/vscode-one-monokai-colorful/blob/main/css/customCss.css) file.
