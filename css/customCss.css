@@ -1,0 +1,82 @@
+/* Add gradient to the statusbar background */
+#workbench\2e parts\2e statusbar {
+  background: #2d2a2e;
+  background: -webkit-linear-gradient(to left, #2d2a2e, #1451686c);
+  background: linear-gradient(to left, #2d2a2e, #1451686c);
+}
+
+/* Add gradient to the terminal background */
+/* #terminal {
+  background: #0e3c4d;
+  background: -webkit-linear-gradient(to top, #0e3c4d, #07041f);
+  background: linear-gradient(to top, #0e3c4d, #07041f);
+} */
+
+/* Add gradient to the list background */
+#workbench\2e parts\2e sidebar,
+#workbench\2e parts\2e sidebar .monaco-list-rows {
+  background: #2a272b;
+  background: -webkit-linear-gradient(to left, #2a272b, #05252a);
+  background: linear-gradient(to left, #2a272b, #05252a);
+}
+
+/* Add gradient to the activitybar background */
+.part.activitybar.left {
+  background: #2d2a2e;
+  background: -webkit-linear-gradient(to left, #2d2a2e, #0e3c4d);
+  background: linear-gradient(to left, #2d2a2e, #0e3c4d);
+}
+
+/* Sweet sunset dots */
+.monaco-workbench
+  .activitybar
+  > .content
+  .monaco-action-bar
+  .badge
+  .badge-content,
+.monaco-action-bar .badge .badge-content,
+.monaco-count-badge {
+  background: linear-gradient(
+    to bottom right,
+    #097ea5 20%,
+    #6fc0e5,
+    #e29169,
+    #e6b96c
+  );
+}
+
+/* Active tab gradient to the background */
+.tab.tab-actions-right.sizing-fit.has-icon.tab-border-bottom.active {
+  background: #242125;
+  background: -webkit-linear-gradient(to right, #242125, #28182e, #242125);
+  background: linear-gradient(to right, #242125, #28182e, #242125);
+}
+/* Active tab stripe */
+.tab-border-bottom-container {
+  background: linear-gradient(
+    to right,
+    #097ea5 20%,
+    #6fc0e5,
+    #e29169,
+    #e6b96c
+  ) !important;
+}
+
+/* Active tab gradient to the background */
+.monaco-workbench {
+  background-color: #373543;
+  background: -webkit-linear-gradient(
+    to bottom,
+    #373543 50%,
+    #26252c,
+    #272129,
+    #2a2e36
+  );
+  background: linear-gradient(
+    to bottom,
+    #373543 50%,
+    #26252c,
+    #272129,
+    #2a2e36
+  );
+}
