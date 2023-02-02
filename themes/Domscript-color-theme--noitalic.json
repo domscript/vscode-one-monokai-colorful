@@ -11,9 +11,9 @@
     "activityBar.foreground": "#F8FAFD",
     "activityBar.inactiveForeground": "#6B717D",
     "activityBarBadge.background": "#cf92fe",
-    "activityBarBadge.foreground": "#fdf8fa",
-    "badge.background": "#0ef0f0",
-    "badge.foreground": "#383E4A",
+    "activityBarBadge.foreground": "#122d42",
+    "badge.background": "#cf92fe",
+    "badge.foreground": "#122d42",
     "banner.background": "#383E4A",
     "banner.foreground": "#D7DAE0",
     "banner.iconForeground": "#D7DAE0",
@@ -465,7 +465,7 @@
     "terminal.ansiBrightMagenta": "#7e0097",
     "terminal.ansiBrightRed": "#ff938a",
     "terminal.ansiBrightWhite": "#c9c9bb",
-    "terminal.ansiBrightYellow": "#0ef0f0",
+    "terminal.ansiBrightYellow": "#fff700",
     "terminal.ansiCyan": "#91f3f1",
     "terminal.ansiGreen": "#68c76b",
     "terminal.ansiMagenta": "#ba89ff",
@@ -625,6 +625,13 @@
         "string.template.ts",
         "string.template.tsx"
       ],
+      "settings": {
+        "foreground": "#fed7aa"
+      }
+    },
+    {
+      "name": "String Quoted",
+      "scope": ["string.quoted"],
       "settings": {
         "foreground": "#fed7aa"
       }
@@ -822,13 +829,6 @@
       }
     },
     {
-      "name": "Inherited class",
-      "scope": "entity.other.inherited-class",
-      "settings": {
-        "foreground": "#78dce8"
-      }
-    },
-    {
       "name": "JavaScript, TypeScript Variable",
       "scope": [
         "variable.other.readwrite.js",
@@ -871,7 +871,7 @@
         "source.js meta.class.body.js meta.function.method.js meta.function-call.with-arguments.js entity.name.function.js"
       ],
       "settings": {
-        "foreground": "#40d9ff"
+        "foreground": "#21a7ac"
       }
     },
     {
@@ -2538,13 +2538,6 @@
       "scope": "string",
       "settings": {
         "foreground": "#8fa6f3"
-      }
-    },
-    {
-      "name": "String Quoted",
-      "scope": ["string.quoted"],
-      "settings": {
-        "foreground": "#fed7aa"
       }
     },
     {
